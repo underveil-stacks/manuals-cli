@@ -6,7 +6,7 @@ on:
 
 jobs:
   claude-review:
-    runs-on: [self-hosted, public-proxy]
+    runs-on: [self-hosted, rpi]
     permissions:
       contents: read
       pull-requests: read
